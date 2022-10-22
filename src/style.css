@@ -1,0 +1,45 @@
+/*
+CSS geral
+*/
+.titulo {
+    margin: 20px 0 20px 0;
+}
+/*
+CSS página príncipal
+*/
+.promocao {
+    display: grid;
+    grid-template: 'imagem descricao descricao';
+    grid-gap: 20px;
+    padding: 20px;
+}
+.img-promocao {
+    grid-area: 'imagem';
+}
+.imagem {
+    width: 250px;
+    height: 250px;
+}
+.descricao {
+    grid-area: 'descricao';
+    margin-top: 30px;
+}
+.clientes{
+    grid-area:'cliente';
+    margin-top: 30px;
+
+}
+/* 
+CSS página de clientes
+*/
+.logoClientes {
+    display: grid;
+    grid-gap: 20px;
+    padding: 20px;
+    font-size: 24px;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
